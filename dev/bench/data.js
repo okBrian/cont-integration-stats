@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730921316230,
+  "lastUpdate": 1730921465951,
   "repoUrl": "https://github.com/okBrian/cont-integration-test",
   "entries": {
     "Benchmark": [
@@ -28,6 +28,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "My Custom Smaller Is Better Benchmark - CPU Load",
             "value": 60,
+            "unit": "Percent"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "brianok924@gmail.com",
+            "name": "Brian Ok",
+            "username": "okBrian"
+          },
+          "committer": {
+            "email": "brianok924@gmail.com",
+            "name": "Brian Ok",
+            "username": "okBrian"
+          },
+          "distinct": true,
+          "id": "64585c5328c38bf83f08a7ac02ece917bd35bffc",
+          "message": "test",
+          "timestamp": "2024-11-06T14:30:51-05:00",
+          "tree_id": "ada18b692c5a86d250f2593e8a369f47e55154a4",
+          "url": "https://github.com/okBrian/cont-integration-test/commit/64585c5328c38bf83f08a7ac02ece917bd35bffc"
+        },
+        "date": 1730921465743,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "My Custom Smaller Is Better Benchmark - CPU Load",
+            "value": 39,
             "unit": "Percent"
           }
         ]
